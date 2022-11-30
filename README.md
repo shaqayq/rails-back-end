@@ -3,7 +3,7 @@
 # Rails_Back_End
 
 ## React Front-End link
- Linke to [Front-end](https://github.com/shaqayq/rails-back-end/issues)
+ Linke to [Front-end](https://github.com/shaqayq/react-front-end/tree/setup-frontend)
 
 ## project Description.
 - Hello Rails React is a simple web app that combines functionalities of Ruby on Rails and React. It allows users to get a random greeting from the backend API.
