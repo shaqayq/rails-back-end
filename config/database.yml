@@ -19,7 +19,9 @@ default: &default
   encoding: unicode
   username: postgres
   password: shaqayq2020
+
   # port: 2020
+
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -84,6 +86,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
   database: rails_back_end_production
   username: rails_back_end
   password: <%= ENV["RAILS_BACK_END_DATABASE_PASSWORD"] %>
